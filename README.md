@@ -1,5 +1,5 @@
-# cake-it-up
+# cake-it-off
 
-https://taylor-cakeitup.web.app
+https://cake-it-off.web.app
 
-Showcase my Taylor Swift birthday cakes.
+Showcasing the Taylor Swift birthday cakes that my friends and I have made.
