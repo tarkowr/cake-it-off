@@ -23,6 +23,21 @@
             text-align: center;
         }
 
+        .info {
+            margin: 0 auto;
+            display: flex;
+            justify-content: start;
+            padding-top: 16px;
+            padding-bottom: 8px;
+            padding-left: 12px;
+            padding-right: 12px;
+            gap: 8px;
+        }
+
+        .divider {
+            color: lightgray;
+        }
+
         .row {
             margin: 0 auto;
             display: flex;
@@ -45,6 +60,22 @@
         img {
             object-fit: contain;
             width: 100%;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 32px;
+            padding-top: 16px;
+        }
+
+        .footer>a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .footer>a:hover {
+            text-decoration: underline;
         }
 
         @media screen and (max-width: 777px) {
@@ -75,50 +106,108 @@
     <div class="gallery">
         <h1>Cake it off</h1>
         <p>Some tswift cakes my friends and I have made</p>
+        <div class="info">
+            <div class="album">Red</div>
+            <div class="divider">|</div>
+            <div class="date">October 2021</div>
+        </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/red.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/red_cake.jpeg" /></div>
+        </div>
+        <div class="info">
+            <div class="album">Taylor</div>
+            <div class="divider">|</div>
+            <div class="date">November 2022</div>
         </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/taylor.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/taylor_cake.jpeg" /></div>
         </div>
+        <div class="info">
+            <div class="album">Lover</div>
+            <div class="divider">|</div>
+            <div class="date">July 2023</div>
+        </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/lover.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/lover_cake.jpeg" /></div>
+        </div>
+        <div class="info">
+            <div class="album">Speak Now</div>
+            <div class="divider">|</div>
+            <div class="date">October 2023</div>
         </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/speak_now.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/speak_now_cake.jpeg" /></div>
         </div>
+        <div class="info">
+            <div class="album">Fearless</div>
+            <div class="divider">|</div>
+            <div class="date">November 2023</div>
+        </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/fearless.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/fearless_cake.jpeg" /></div>
+        </div>
+        <div class="info">
+            <div class="album">Reputation</div>
+            <div class="divider">|</div>
+            <div class="date">July 2024</div>
         </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/reputation.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/reputation_cake.jpeg" /></div>
         </div>
+        <div class="info">
+            <div class="album">Reputation</div>
+            <div class="divider">|</div>
+            <div class="date">November 2024</div>
+        </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/reputation_alt.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/reputation_alt_cake.jpeg" /></div>
+        </div>
+        <div class="info">
+            <div class="album">Mightnight</div>
+            <div class="divider">|</div>
+            <div class="date">January 2025</div>
         </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/midnight.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/midnight_cake.jpeg" /></div>
         </div>
+        <div class="info">
+            <div class="album">Showgirl</div>
+            <div class="divider">|</div>
+            <div class="date">October 2025</div>
+        </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/showgirl.png" /></div>
             <div class="imgWrapper"><img src="assets/showgirl_cake.png" /></div>
+        </div>
+        <div class="info">
+            <div class="album">1989</div>
+            <div class="divider">|</div>
+            <div class="date">November 2025</div>
         </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/1989.png" /></div>
             <div class="imgWrapper"><img src="assets/1989_cake.jpeg" /></div>
         </div>
+        <div class="info">
+            <div class="album">Evermore</div>
+            <div class="divider">|</div>
+            <div class="date">February 2026</div>
+        </div>
         <div class="row">
             <div class="imgWrapper"><img src="assets/evermore.jpeg" /></div>
             <div class="imgWrapper"><img src="assets/evermore_cake.jpeg" /></div>
         </div>
+    </div>
+    <div class="footer">
+        <a href="https://richietarkowski.com/" target="_blank">richietarkowski.com</a>
     </div>
 </body>
 
